@@ -1,10 +1,10 @@
-# Ignoriši Python cache fajlove
+# 🐍 Ignore Python cache files
 __pycache__/
 *.pyc
 
-# Ignoriši Jupyter Checkpoints
+# 📓 Ignore Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Ignoriši podatke ako su veliki
-data/*.csv
-data/*.xlsx
+# 📁 Ignore all data files except sample.csv
+data/*
+!data/sample.csv
