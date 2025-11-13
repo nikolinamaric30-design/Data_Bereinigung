@@ -1,0 +1,10 @@
+# Ignoriši Python cache fajlove
+__pycache__/
+*.pyc
+
+# Ignoriši Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# Ignoriši podatke ako su veliki
+data/*.csv
+data/*.xlsx
